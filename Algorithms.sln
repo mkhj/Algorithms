@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms", "Algorithms\Algorithms.csproj", "{1B899442-B50C-4E8D-88A3-53775812F2AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms.Tests", "Algorithms.Tests\Algorithms.Tests.csproj", "{754DB279-4D82-4819-B120-C34E9D91CF61}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9B5FAF5D-87CE-4795-9442-A192B07BDFE4}"
+	ProjectSection(SolutionItems) = preProject
+		Algorithms.vsmdi = Algorithms.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Algorithms.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B899442-B50C-4E8D-88A3-53775812F2AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B899442-B50C-4E8D-88A3-53775812F2AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B899442-B50C-4E8D-88A3-53775812F2AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B899442-B50C-4E8D-88A3-53775812F2AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{754DB279-4D82-4819-B120-C34E9D91CF61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{754DB279-4D82-4819-B120-C34E9D91CF61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{754DB279-4D82-4819-B120-C34E9D91CF61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{754DB279-4D82-4819-B120-C34E9D91CF61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
