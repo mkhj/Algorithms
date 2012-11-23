@@ -50,10 +50,10 @@ namespace Algorithms
                 if (s < n - m) 
                 {
                     ts = (d * (ts - text[s] * h) + text[s + m]) % prime;
-                    if (ts < 0)
-                    {
-                        ts += prime;
-                    }
+                    //if (ts < 0)
+                    //{
+                    //    ts += prime;
+                    //}
                 }
             }
 
